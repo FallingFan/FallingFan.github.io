@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Cozy Database</title>
+    <link rel="stylesheet" href="styles.css">
+     </head>
+    <body>
+      <h1 id="title"> The Cozy Database </h1>
+      <p id="description"> a registration form so I know where to avoid all the STINK </p>
+      <form id="survey-form">
+        <fieldset>
+          <label for="name" id="name-label">Name or Discord: <input name="name" placeholder="Cozy#1337" id="name" type="text" required></label>
+          <label for="email" id="email-label" >Email: <input name="email" placeholder="Cozy@Stinkmeister.com" id="email" type="email" required></label>
+          <label for="number" id="number-label">Stink Level: <input name="Stinkiness" placeholder="1-10" id="number" type="number" min="1" max="10" required></label>
+      </fieldset>
+        <h2>Stinkiness assesment</h2>        
+      <fieldset>
+      <h3>In the last 24hrs I have taken the following steps to lower my stink levels:</h3>
+        <input name="showered" id="showered" type="checkbox" value="showered"><label for="showered">Showered</label>
+        <input id="brushed-teeth" type="checkbox" name="brushed-teeth" value="brushed-teeth"> <label for="brushed-teeth">Brushed Teeth</label>
+        <input name="used-deoderant" id="used-deoderant" type="checkbox" value="used-deoderant"><label for="used-deoderant">Used Deoderant</label>
+      <h4>Has someone I know told me I stink today?</h4>
+       <label for="yes"><input id="yes" type="radio" name="stink-confirmation" class="inline" value="yes" /> yes</label>
+        <label for="no"><input id="no" type="radio" name="stink-confirmation" class="inline" value="no" /> no</label> 
+      <div>
+        <label for="snitch">Select one person you can PROVE stinks more than you
+          <select id="dropdown" name="snitch">
+            <option value="">(select one)</option>
+            <option value="1">LordValark</option>
+            <option value="2">QueenTier</option>
+            <option value="3">JeanBean</option>
+            <option value="4">FallingFan</option>
+            <option value="5">Delfryngr</option>
+            <option value="6">Minty</option>
+            <option value="7">DeeJay</option>
+            <option value="8">Jubba</option>
+            <option value="9">CannibalPuppies</option>
+            <option value="10">JinxxJams</option>
+            <option value="11">Straw-Glasses</option>
+            <option value="12">Artiikii</option>
+            <option value="13">Buzzabeel</option>
+            <option value="14">Peyo</option>
+            <option value="15">GhostedKiwi</option>
+            <option value="16">Ultra_A136</option>
+            <option value="17">Rainy</option>
+            <option value="18">Mrjarquell</option>
+            <option value="19">Shim</option>
+            <option value="20">AndrealphusVIII</option>
+            <option value="21">Emp</option>
+            <option value="22">Eldritch Carmine</option>
+            <option value="23">BCBlayze</option>
+            <option value="24">Goon</option>
+            <option value="25">HevyMetalKitten</option>
+            <option value="26">Infinitylinds</option>
+            <option value="27">itsAngel</option>
+            <option value="28">JerkyJohanson</option>
+            <option value="29">Fletch</option>
+            <option value="30">Mega_Monkey_Mike</option>
+          </select>
+        </label>
+        </div>
+        <label for="bio">Proof:
+          <textarea id="proof" name="proof" rows="1" cols="30" placeholder="Why do they Stink?"></textarea>
+</label>
+</fieldset>
+<input id="submit" type="submit" value="Submit" />
+  </form>
+  </body>
+</html>
